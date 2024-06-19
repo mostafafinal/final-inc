@@ -1,0 +1,45 @@
+/* Global Rules */
+:root {
+    --red-color: #e60024;
+}
+/* Global Rules */
+body {
+    min-height: 10000px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/* Start Navbar */
+.active {
+    background-color: var(--red-color);
+}
+.navbar {
+    .navbar-toggler[aria-expanded="true"] {
+        border-color: var(--red-color) !important;
+    }
+    .nav-item {
+        cursor: pointer;
+        &.active,
+        &:hover {
+            color: white !important;
+        }
+        .show {
+            color: white;
+            background-color: black;
+        }
+        .divider {
+            padding: 1px;
+            background-color: #871818;
+        }
+        .dropdown-item {
+            width: 200px;
+            transition: .3s;
+            &:focus,
+            &:hover {
+                background-color: var(--red-color);
+                padding-left: 25px;
+            }
+        }
+    }
+}
+
+/* End Navbar */
