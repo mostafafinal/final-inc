@@ -43,3 +43,16 @@ body {
 }
 
 /* End Navbar */
+
+/* Start Carousel */
+.carousel {
+    .carousel-caption {
+        top: 40%;
+        transform: translateY(-50%);
+        background-color: rgba(3,3,3,0.3);
+    }
+    button.active { 
+        background-color: var(--red-color);
+    }
+}
+/* End Carousel */
