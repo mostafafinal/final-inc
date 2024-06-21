@@ -9,10 +9,10 @@ body {
 }
 
 /* Start Navbar */
-.active {
-    background-color: var(--red-color);
-}
 .navbar {
+    .active {
+        background-color: var(--red-color);
+    }
     .navbar-toggler[aria-expanded="true"] {
         border-color: var(--red-color) !important;
     }
@@ -51,8 +51,31 @@ body {
         transform: translateY(-50%);
         background-color: rgba(3,3,3,0.3);
     }
-    button.active { 
-        background-color: var(--red-color);
+    & .carousel-indicators {
+        button.active {
+            background-color: var(--red-color);
+        }
     }
 }
 /* End Carousel */
+
+/* Start Testimonials */
+.carousel.testimonials {
+    .carousel-indicators {
+        bottom: -70px;
+        & [data-bs-target] {
+            height: fit-content;
+            text-indent: 0;
+            border: 0;
+        }
+    }
+    .img-box {
+        width: 74px;
+        &.active {
+            border-radius: 50%;
+            border: solid 3px var(--red-color);
+            opacity: 1;
+        }
+    }
+}
+/* End Testimonials */
