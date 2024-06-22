@@ -47,9 +47,10 @@ body {
 /* Start Carousel */
 .carousel {
     .carousel-caption {
-        top: 40%;
+        top: 47%;
         transform: translateY(-50%);
         background-color: rgba(3,3,3,0.3);
+        height: fit-content;
     }
     & .carousel-indicators {
         button.active {
@@ -62,7 +63,6 @@ body {
 /* Start Testimonials */
 .carousel.testimonials {
     .carousel-indicators {
-        bottom: -70px;
         & [data-bs-target] {
             height: fit-content;
             text-indent: 0;
@@ -79,3 +79,17 @@ body {
     }
 }
 /* End Testimonials */
+
+/* Start Price Table */
+.price-box {
+    p {
+        height: 100px;
+        width: 100px;
+        transition: 1s;
+    }
+    &:hover p{
+        border: solid 2px #DFDFDF;
+        transform: scale(1.1, 1.1) rotate(360deg);
+    }
+}
+/* End Price Table */
