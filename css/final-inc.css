@@ -93,3 +93,24 @@ body {
     }
 }
 /* End Price Table */
+
+/* Start Team */
+.team-section {
+    background-image: url('../imgs/team.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px;
+    .team {
+        background-color: rgba(2,2,2,0.8);
+        min-height: 600px;
+        svg {
+            cursor: pointer;
+        }
+        .member {
+            cursor: pointer;
+        }
+    }
+}
+/* End Team */
