@@ -95,15 +95,21 @@ body {
 /* End Price Table */
 
 /* Start Team */
-.team-section {
-    background-image: url('../imgs/team.jpg');
-    background-size: cover;
+.bg-fixed {
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    & > div {
+        background-color: rgba(2,2,2,0.8);
+    }
+}
+.team-section {
+    background-image: url('../imgs/team.jpg');
+
+
     min-height: 600px;
     .team {
-        background-color: rgba(2,2,2,0.8);
         min-height: 600px;
         svg {
             cursor: pointer;
@@ -128,3 +134,18 @@ body {
     }
 }
 /* End Subscribe */
+
+/* Start Statistics */
+.stat-section {
+    background-image: url('../imgs/stats.jpg');
+    p {
+        font-size: 60px;
+    }
+    .stat {
+        transition: .7s ease-in-out;
+    }
+    .stat:hover {
+        opacity: 1 !important;
+    }
+}
+/* End Statistics */
