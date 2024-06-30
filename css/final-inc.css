@@ -195,7 +195,7 @@ footer {
 }
 /* End Footer */
 
-/* Start Laoding */
+/* Start Page Settings*/
 .loading {
     transition: ease 3s;
     z-index: 9999;
@@ -204,4 +204,9 @@ footer {
     opacity: 0;
     visibility: hidden;
 }
-/* End Laoding */
+.scroll-up {
+    bottom: 20px;
+    right: 10px;
+    transition: .3s;
+}
+/* End Page Settings */
