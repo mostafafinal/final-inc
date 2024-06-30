@@ -175,3 +175,13 @@ body {
     }
 }
 /* End Contact */
+/* Start Clients */
+.clients {
+    .text-center {
+        transition: ease-in-out .3s;
+        &:hover {
+            opacity: 1 !important;
+        }
+    }
+}
+/* End Clients */
