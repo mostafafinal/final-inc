@@ -4,7 +4,6 @@
 }
 /* Global Rules */
 body {
-    min-height: 10000px;
     font-family: 'Droid Sans', sans-serif;
 }
 
@@ -175,6 +174,7 @@ body {
     }
 }
 /* End Contact */
+
 /* Start Clients */
 .clients {
     .text-center {
@@ -185,3 +185,11 @@ body {
     }
 }
 /* End Clients */
+
+/* Start Footer */
+footer {
+    .copyright {
+        background-color: #333;
+    }
+}
+/* End Footer */
