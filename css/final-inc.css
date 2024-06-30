@@ -4,6 +4,7 @@
 }
 /* Global Rules */
 body {
+    overflow: hidden;
     font-family: 'Droid Sans', sans-serif;
 }
 
@@ -193,3 +194,14 @@ footer {
     }
 }
 /* End Footer */
+
+/* Start Laoding */
+.loading {
+    transition: ease 3s;
+    z-index: 9999;
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+/* End Laoding */
