@@ -240,7 +240,7 @@ footer {
 /* Start Page Settings*/
 .loading {
     transition: ease 3s;
-    z-index: 9999;
+    z-index: 99999;
 }
 .hidden {
     opacity: 0;
