@@ -1,0 +1,62 @@
+/* Global Rules */
+:root {
+    --red-color: #e60024;
+}
+a {
+    text-decoration: none;
+}
+.scroll-up {
+    bottom: 20px;
+    right: 10px;
+    transition: .3s;
+}
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
+/* Global Rules */
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
+/* Start Navbar */
+.navbar {
+    .active {
+        background-color: var(--red-color);
+        a {
+
+            color: white !important;
+        }
+    }
+    .navbar-toggler[aria-expanded="true"] {
+        border-color: var(--red-color) !important;
+    }
+    .nav-item {
+        cursor: pointer;
+        a.active,
+        a:hover,
+        &:hover {
+            color: white !important;
+        }
+    }
+}
+/* End Navbar */
+
+.about-us {
+    padding: 70px 0;
+    h1 {
+        font-size: 62px;
+    }
+}
+.about-features {
+    padding-bottom: 70px;
+    p {
+        font-size: 14px;
+    }
+}
