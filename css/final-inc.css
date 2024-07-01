@@ -60,8 +60,9 @@ body {
     }
     .nav-item {
         cursor: pointer;
-        &.active,
-        &:hover {
+        a:hover,
+        &:hover,
+        &.active {
             color: white !important;
         }
         .show {
