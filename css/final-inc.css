@@ -7,6 +7,35 @@ body {
     overflow: hidden;
     font-family: 'Droid Sans', sans-serif;
 }
+/* Animations */
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+    
+      50% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    
+      100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+}
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    animation-duration: 1s;
+    &:hover {
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+  }
 
 /* Start Navbar */
 .navbar {
@@ -41,7 +70,6 @@ body {
         }
     }
 }
-
 /* End Navbar */
 
 /* Start Carousel */
