@@ -30,7 +30,6 @@ body {
     .active {
         background-color: var(--red-color);
         a {
-
             color: white !important;
         }
     }
@@ -58,5 +57,10 @@ body {
     padding-bottom: 70px;
     p {
         font-size: 14px;
+    }
+}
+.faq {
+    h1 {
+        font-size: 65px;
     }
 }
